@@ -1,0 +1,60 @@
+body {
+    background-color: #f7e2ac;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #242424;
+    color: #fff;
+    padding: 1em 0.5em;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+
+form {
+    display: grid;
+    max-width: 500px;
+    /*background-color: #e4b43b;*/
+    background-color: #f5c751;
+    border: 1px solid #242424;
+    margin: 0 auto;
+    padding: 0.5em 2em;
+    margin-bottom: 2em;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 0.1em;
+}
+
+input {
+    font-family: inherit;
+    line-height: 25px;
+    margin-bottom: 1.1em;
+}
+
+textarea {
+    margin-bottom: 2em;
+    max-width: 490px;
+}
+
+button {
+    max-width: 50%;
+    margin-left: 25%;
+    font-family: inherit;
+    padding: 0.7em 0;
+    margin-bottom: 2em;
+    font-weight: bold;
+    background-color: #605a4a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #ab9c77;
+    color: #fff;
+}
